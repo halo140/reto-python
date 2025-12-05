@@ -1,56 +1,56 @@
-# ?? An¨¢lisis de Facturaci¨®n - Cadena de Tiendas Retail
+# ğŸ“Š AnÃ¡lisis de FacturaciÃ³n - Cadena de Tiendas Retail
 
-## ?? Descripci¨®n del Proyecto
+## ğŸ“ DescripciÃ³n del Proyecto
 
-Este proyecto es parte de un desaf¨ªo de Data Science donde actuamos como analistas de datos para una cadena de comercio. El objetivo principal fue analizar los datos de **4 tiendas distintas** para ayudar al due?o (Sr. Juan) a tomar una decisi¨®n estrat¨¦gica importante: **identificar cu¨¢l tienda tiene el menor rendimiento y deber¨ªa ser vendida.**
+Este proyecto es parte de un desafÃ­o de Data Science donde actuamos como analistas de datos para una cadena de comercio. El objetivo principal fue analizar los datos de **4 tiendas distintas** para ayudar al dueÃ±o (Sr. Juan) a tomar una decisiÃ³n estratÃ©gica importante: **identificar cuÃ¡l tienda tiene el menor rendimiento y deberÃ­a ser vendida.**
 
-Utilizando Python, procesamos archivos CSV con miles de transacciones para extraer insights sobre ventas, satisfacci¨®n del cliente y log¨ªstica.
+Utilizando Python, procesamos archivos CSV con miles de transacciones para extraer insights sobre ventas, satisfacciÃ³n del cliente y logÃ­stica.
 
-## ?? Tecnolog¨ªas Utilizadas
+## ğŸš€ TecnologÃ­as Utilizadas
 
-El an¨¢lisis fue realizado en **Google Colab** utilizando las siguientes librer¨ªas:
+El anÃ¡lisis fue realizado en **Google Colab** utilizando las siguientes librerÃ­as:
 
 * **Python 3**
-* **Pandas:** Para la manipulaci¨®n y limpieza de los datos (DataFrames).
-* **Matplotlib & Seaborn:** Para la generaci¨®n de gr¨¢ficos y visualizaci¨®n de datos.
+* **Pandas:** Para la manipulaciÃ³n y limpieza de los datos (DataFrames).
+* **Matplotlib & Seaborn:** Para la generaciÃ³n de grÃ¡ficos y visualizaciÃ³n de datos.
 
-## ?? Estructura del An¨¢lisis
+## ğŸ“‚ Estructura del AnÃ¡lisis
 
-El c¨®digo recorre los siguientes pasos clave:
+El cÃ³digo recorre los siguientes pasos clave:
 
-1. **Carga de Datos:** Importaci¨®n de 4 datasets (CSV) desde un repositorio remoto.
-2. **Limpieza y Agrupaci¨®n:** Organizaci¨®n de las tiendas en una estructura iterable para evitar repetir c¨®digo.
-3. **C¨¢lculo de KPIs:**
-    * ?? Ingresos Totales por tienda.
-    * ?? Ventas por Categor¨ªa.
-    * ? Calificaci¨®n Promedio de satisfacci¨®n.
-    * ?? Costo Promedio de Env¨ªo.
-    * ?? Productos m¨¢s y menos vendidos.
-4. **Visualizaci¨®n:** Gr¨¢ficos de barras y dispersi¨®n para comparar el rendimiento.
-5. **Informe Final:** Recomendaci¨®n estrat¨¦gica basada en datos.
+1. **Carga de Datos:** ImportaciÃ³n de 4 datasets (CSV) desde un repositorio remoto.
+2. **Limpieza y AgrupaciÃ³n:** OrganizaciÃ³n de las tiendas en una estructura iterable para evitar repetir cÃ³digo.
+3. **CÃ¡lculo de KPIs:**
+   * ğŸ’° Ingresos Totales por tienda.
+   * ğŸ“¦ Ventas por CategorÃ­a.
+   * â­ CalificaciÃ³n Promedio de satisfacciÃ³n.
+   * ğŸšš Costo Promedio de EnvÃ­o.
+   * ğŸ† Productos mÃ¡s y menos vendidos.
+4. **VisualizaciÃ³n:** GrÃ¡ficos de barras y dispersiÃ³n para comparar el rendimiento.
+5. **Informe Final:** RecomendaciÃ³n estratÃ©gica basada en datos.
 
-## ?? Hallazgos Principales
+## ğŸ“ˆ Hallazgos Principales
 
-Despu¨¦s de procesar los datos, llegamos a las siguientes conclusiones:
+DespuÃ©s de procesar los datos, llegamos a las siguientes conclusiones:
 
-* La **Tienda 1** es la l¨ªder indiscutible en ingresos, superando los $1,150 millones.
-* La categor¨ªa de **Muebles** es el producto estrella en todas las sucursales.
-* Existe una discrepancia entre ventas y satisfacci¨®n: la tienda que m¨¢s vende es la que tiene la calificaci¨®n m¨¢s baja.
+* La **Tienda 1** es la lÃ­der indiscutible en ingresos, superando los $1,150 millones.
+* La categorÃ­a de **Muebles** es el producto estrella en todas las sucursales.
+* Existe una discrepancia entre ventas y satisfacciÃ³n: la tienda que mÃ¡s vende es la que tiene la calificaciÃ³n mÃ¡s baja.
 
-### ?? Conclusi¨®n
+### ğŸ ConclusiÃ³n
 
-El an¨¢lisis sugiere que la **Tienda 4** es la candidata ideal para la venta, ya que presenta el **menor volumen de facturaci¨®n** ($1,038 millones) y no demuestra ventajas competitivas significativas frente a las otras sucursales.
+El anÃ¡lisis sugiere que la **Tienda 4** es la candidata ideal para la venta, ya que presenta el **menor volumen de facturaciÃ³n** ($1,038 millones) y no demuestra ventajas competitivas significativas frente a las otras sucursales.
 
-## ??? C¨®mo ejecutar este proyecto
+## ğŸ› ï¸ CÃ³mo ejecutar este proyecto
 
 1. Clona este repositorio.
 2. Abre el archivo `.ipynb` en Google Colab o Jupyter Notebook.
-3. Aseg¨²rate de tener instaladas las librer¨ªas necesarias:
+3. AsegÃºrate de tener instaladas las librerÃ­as necesarias:
 ```bash
-    pip install pandas matplotlib seaborn
+   pip install pandas matplotlib seaborn
 ```
-4. Ejecuta las celdas en orden para ver el an¨¢lisis paso a paso.
+4. Ejecuta las celdas en orden para ver el anÃ¡lisis paso a paso.
 
 ---
 
-*Desarrollado como parte de un reto de an¨¢lisis de datos con Python.*
+*Desarrollado como parte de un reto de anÃ¡lisis de datos con Python.*
